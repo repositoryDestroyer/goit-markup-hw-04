@@ -54,15 +54,6 @@
           <button class="button order-bt" type="button" data-modal-open>
             Order Service
           </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="button modal-btn" type="button" data-modal-close>
-                <svg width="8" height="8">
-                  <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
       <section class="section section-advantages">
@@ -331,56 +322,58 @@
         </div>
       </section>
       <section class="section section-customers">
-        <h2 class="secondary-title">Customers</h2>
-        <ul class="list">
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c5"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="elem">
-            <a class="customer-link" href="#">
-              <svg class="customer-icon" width="168" height="88">
-                <use href="./images/icons.svg#c6"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="secondary-title">Customers</h2>
+          <ul class="list">
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="elem">
+              <a class="customer-link" href="#">
+                <svg class="customer-icon" width="168" height="88">
+                  <use href="./images/icons.svg#c6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <div>
+        <div class="footer-info">
           <a class="logo-text link" href="./index.html">
             Web<span class="logo-light">Studio</span>
           </a>
@@ -424,6 +417,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button modal-btn" type="button" data-modal-close>
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
