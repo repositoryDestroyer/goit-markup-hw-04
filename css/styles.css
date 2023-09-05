@@ -123,6 +123,7 @@ body {
   text-align: center;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,6 +189,7 @@ body {
 
 .section-team {
   background-color: var(--light-cl);
+  padding: 120px 0;
 }
 
 .buttons-list .elem {
@@ -285,10 +287,6 @@ body {
   padding-bottom: 120px;
 }
 
-.section-team .container {
-  padding: 120px 0;
-}
-
 .section-team .list {
   display: flex;
   gap: 24px;
@@ -299,7 +297,6 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
 }
 
 .section-team .team-info-wrapper {
